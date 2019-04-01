@@ -1,0 +1,26 @@
+<single type import declaration> ::= import <type name> ;
+
+<type declarations> ::= <type declaration> | <type declarations> <type declaration>
+
+<expression statement> ::= <statement expression> ;
+
+<if then statement>::= if ( <expression> ) <statement>
+
+<if then else statement>::= if ( <expression> ) then <statement no short if> else <statement>
+
+
+<while statement> ::= while ( <expression> ) <statement>
+
+<while statement no short if> ::= while ( <expression> ) <statement no short if>
+
+<constant expression> ::= <expression>
+
+<assignment expression> ::= <conditional expression> | <assignment>
+
+<expression> ::= <assignment expression>
+
+<relational expression> ::= <expression> + [<= | >=| ==| != | - | + | * | / | = ]+ + <expression> 
+
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+keyword import|main|int|float|string|double|char|const|if|while|else|then|yaz|
