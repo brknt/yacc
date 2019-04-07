@@ -55,4 +55,4 @@ I've designed based on the Java programming language
 ![compiler image](https://github.com/brknt/yacc/blob/master/compiler.png)
 
 ### Example Output:
-![Example image](https://github.com/brknt/yacc/blob/master/calculator.gns)
+![Example image](https://github.com/brknt/yacc/blob/master/export%20(1).png)
